@@ -125,9 +125,8 @@ Congratulations! You've successfully set up and tested the 6x10 RGB-MATRIX for X
 ## Resources
 
 - **[Zip]** [Eagle file](https://github.com/Longan-Labs/XIAO_MATRIX_RES/raw/main/EAGLE_XIAO_MATRIX.zip)
-- **[PDF]** [Datasheet - MCP2515](https://www.mouser.com/datasheet/2/268/MCP2515-Stand-Alone-CAN-Controller-with-SPI-200018-708845.pdf)
-- **[PDF]** [Datasheet - SN65HVD230](https://www.mouser.com/datasheet/2/268/20001667G-1115479.pdf)
-- **[GITHUB]** [MCP_CAN Library](https://github.com/Longan-Labs/Aruino_CAN_BUS_MCP2515)
+- **[PDF]** [Datasheet - WS2812B](https://github.com/Longan-Labs/XIAO_MATRIX_RES/blob/main/WS2812B-1010-DATASHEET.PDF)
+- **[GITHUB]** [Library for RP2040](https://github.com/MrYsLab/NeoPixelConnect)
 
 ## Tech Support
 If you have any technical issue.  submit the issue into our [forum](https://forum.seeedstudio.com/).
