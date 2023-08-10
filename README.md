@@ -127,6 +127,9 @@ Congratulations! You've successfully set up and tested the 6x10 RGB-MATRIX for X
 - **[Zip]** [Eagle file](https://github.com/Longan-Labs/XIAO_MATRIX_RES/raw/main/EAGLE_XIAO_MATRIX.zip)
 - **[PDF]** [Datasheet - WS2812B](https://github.com/Longan-Labs/XIAO_MATRIX_RES/blob/main/WS2812B-1010-DATASHEET.PDF)
 - **[GITHUB]** [Library for RP2040](https://github.com/MrYsLab/NeoPixelConnect)
+- **[GITHUB]** [Library for ESP32C3](https://github.com/adafruit/Adafruit_NeoPixel)
+- **[GITHUB]** [Library for SAMD21](https://github.com/adafruit/Adafruit_NeoPixel)
+- **[GITHUB]** [Library for nRF25840](https://github.com/adafruit/Adafruit_NeoPixel)
 
 ## Tech Support
 If you have any technical issue.  submit the issue into our [forum](https://forum.seeedstudio.com/).
