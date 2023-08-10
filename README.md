@@ -10,9 +10,7 @@ last_update:
   author: Stephen Lo
 ---
 
-
-<!-- ![](https://files.seeedstudio.com/wiki/Grove-VOC_and_eCO2_Gas_Sensor-SGP30/img/IMG_0012a.jpg) -->
-  <p style={{textAlign: 'center'}}><img src="https://raw.githubusercontent.com/Longan-Labs/CAN_DEV_XIAO_RES/main/images/main.jpg" alt="pir" width={600} height="auto" /></p>
+<p style={{textAlign: 'center'}}><img src="https://raw.githubusercontent.com/Longan-Labs/XIAO_MATRIX_RES/main/images/1-6x10-RGB-MATRIX-for-XIAO-45font.jpg" alt="pir" width={600} height="auto" /></p>
 
 Introducing the "6x10 RGB-MATRIX for XIAO" - a dazzling addition to the XIAO product series by Seeed Studio. The XIAO series, where "XIAO" translates to "small" or "little", represents the pinnacle of compact design with its development boards that are as tiny as a fingernail. These boards have showcased Seeed Studio's dedication to offering clear, easy-to-understand, and versatile solutions for developers. Now, with the 6x10 RGB-MATRIX, you have the power to illuminate your projects with a spectrum of colors. Comprising 60 meticulously arranged WS2812 LEDs, this matrix isn't just about aesthetics; it's a tool to bring your creative visions to life. Whether you're crafting an interactive art piece, designing a dynamic notification system, or simply wish to add a splash of color to your creations, this matrix is your canvas. Tailored for seamless integration with the XIAO main controller, its adaptability is further highlighted with the inclusion of VCC, GND, and DIN solder pads, ensuring flexibility across a multitude of scenarios.
 <p style={{textAlign: 'center'}}><a href="https://www.seeedstudio.com/-Grove-VOC-and-eCO2-Gas-Sensor-(SGP30)-p-3071.html" target="_blank"><img src="https://files.seeedstudio.com/wiki/Seeed-WiKi/docs/images/300px-Get_One_Now_Banner-ragular.png" /></a></p>
