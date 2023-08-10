@@ -50,12 +50,16 @@ Welcome to the quick start guide for the 6x10 RGB-MATRIX for XIAO. This guide ai
 Upon receiving your product, some soldering will be required. We've provided two pin headers with the package. You'll need to solder these headers onto the expansion board. 
 *Refer to the image provided in the documentation for a visual guide.*
 
+![](https://raw.githubusercontent.com/Longan-Labs/XIAO_MATRIX_RES/main/images/solder.jpg)
+
 ### 2. Connecting the Expansion Board:
 Once the soldering is complete, you can proceed to connect the expansion board to the XIAO RP2040 main controller.
 *Again, refer to the accompanying image in the documentation for clarity.*
 
 ### 3. Connecting to Your Computer:
 For programming the XIAO RP2040, you'll need a TYPE-C USB data cable. Connect one end to the XIAO RP2040 and the other to your computer. For a detailed guide on programming the XIAO RP2040, please refer to this [documentation](https://wiki.seeedstudio.com/XIAO-RP2040/).
+
+![](https://github.com/Longan-Labs/XIAO_MATRIX_RES/blob/main/images/usb.jpg)
 
 ### 4. Installing the WS2812 Library:
 Before you can start programming the LEDs, you'll need a specific library for the RP2040. Download the WS2812 library for RP2040 from this [GitHub link](https://github.com/MrYsLab/NeoPixelConnect). Once downloaded, install the library in your programming environment.
@@ -95,7 +99,7 @@ Congratulations! You've successfully set up and tested the 6x10 RGB-MATRIX for X
 
 ## Schematic Online Viewer
 
-<div className="altium-ecad-viewer" data-project-src="https://github.com/Longan-Labs/D7S_SENSOR_RES/raw/main/D7S%20Vibration%20Sensor.zip" style={{borderRadius: '0px 0px 4px 4px', height: 500, borderStyle: 'solid', borderWidth: 1, borderColor: 'rgb(241, 241, 241)', overflow: 'hidden', maxWidth: 1280, maxHeight: 700, boxSizing: 'border-box'}}>
+<div className="altium-ecad-viewer" data-project-src="https://github.com/Longan-Labs/XIAO_MATRIX_RES/raw/main/EAGLE_XIAO_MATRIX.zip" style={{borderRadius: '0px 0px 4px 4px', height: 500, borderStyle: 'solid', borderWidth: 1, borderColor: 'rgb(241, 241, 241)', overflow: 'hidden', maxWidth: 1280, maxHeight: 700, boxSizing: 'border-box'}}>
 </div>
 
 ## FAQ
@@ -120,7 +124,7 @@ Congratulations! You've successfully set up and tested the 6x10 RGB-MATRIX for X
 
 ## Resources
 
-- **[Zip]** [Eagle file](https://github.com/stephen1874/CAN_DEV_XIAO_RES/raw/main/CAN_DEV_XIAO.zip)
+- **[Zip]** [Eagle file](https://github.com/Longan-Labs/XIAO_MATRIX_RES/raw/main/EAGLE_XIAO_MATRIX.zip)
 - **[PDF]** [Datasheet - MCP2515](https://www.mouser.com/datasheet/2/268/MCP2515-Stand-Alone-CAN-Controller-with-SPI-200018-708845.pdf)
 - **[PDF]** [Datasheet - SN65HVD230](https://www.mouser.com/datasheet/2/268/20001667G-1115479.pdf)
 - **[GITHUB]** [MCP_CAN Library](https://github.com/Longan-Labs/Aruino_CAN_BUS_MCP2515)
