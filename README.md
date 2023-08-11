@@ -62,35 +62,21 @@ For programming the XIAO RP2040, you'll need a TYPE-C USB data cable. Connect on
 ![](https://github.com/Longan-Labs/XIAO_MATRIX_RES/blob/main/images/usb.jpg)
 
 ### 4. Installing the WS2812 Library:
-Before you can start programming the LEDs, you'll need a specific library for the RP2040. Download the WS2812 library for RP2040 from this [GitHub link](https://github.com/MrYsLab/NeoPixelConnect). Once downloaded, install the library in your programming environment.
+Before you can start programming the LEDs, you'll need a specific library for the RP2040. Download the WS2812 library from this [GitHub link](https://github.com/adafruit/Adafruit_NeoPixel). Once downloaded, install the library in your programming environment.
 
 ### 5. Programming the LEDs:
-Open the `fill_demo` example from the library you just installed. However, you'll need to make some modifications to the code to get it working for our setup. Here's the modified code:
+Open the `strandtest.ino` example from the library you just installed. However, you'll need to make some modifications to the code to get it working for our setup. Here's the modified code:
+
+Line 20,
 
 ```cpp
-#include <NeoPixelConnect.h>
-#define MAXIMUM_NUM_NEOPIXELS 60
+#define LED_PIN D0
+```
 
-NeoPixelConnect p(26, MAXIMUM_NUM_NEOPIXELS, pio0, 0);
+Line 23, 
 
-void setup(){}
-
-void loop(){
-    p.neoPixelFill(10, 0, 0, true);
-    delay(1000);
-    p.neoPixelClear(true);
-    delay(1000);
-
-    p.neoPixelFill(0, 10, 0, true);
-    delay(1000);
-    p.neoPixelClear(true);
-    delay(1000);
-
-    p.neoPixelFill(0, 0, 10, true);
-    delay(1000);
-    p.neoPixelClear(true);
-    delay(1000);
-}
+```cpp
+#define LED_COUNT 60
 ```
 
 Upload the above code to your XIAO RP2040. Once uploaded, you should observe the LEDs on the matrix cycling through red, green, and blue colors.
@@ -107,29 +93,23 @@ Congratulations! You've successfully set up and tested the 6x10 RGB-MATRIX for X
 - Q1: Do I need to solder anything when I receive the product?
 - A1: If you intend to use the board in conjunction with the XIAO main controller, you'll need to solder the provided pin headers. However, if you're using the board in a different setup, soldering might not be necessary.
 
-- Q2: Which XIAO main controller is this matrix compatible with?
-- A2: While the matrix is designed to be compatible with various XIAO main controllers, the provided guide uses the XIAO RP2040 as an example.
-
-- Q3: How do I power the 6x10 RGB-MATRIX?
+- Q2: How do I power the 6x10 RGB-MATRIX?
 - A3: The matrix can be powered through the XIAO's 5V supply or directly via the VCC solder pad with a 5V source.
 
-- Q4: The LEDs aren't lighting up. What should I do?
+- Q3: The LEDs aren't lighting up. What should I do?
 - A4: Ensure that your soldering is done correctly, the matrix is properly connected to the XIAO main controller, and the correct code has been uploaded. If issues persist, refer to the official documentation or contact Seeed Studio support.
 
-- Q5: Can I integrate this matrix into wearable tech or clothing?
+- Q4: Can I integrate this matrix into wearable tech or clothing?
 - A5: Given its compact design, the 6x10 RGB-MATRIX can be integrated into various projects, including wearable tech. However, ensure that the connections are secure and the matrix is protected from excessive wear and tear.
 
-- Q6: Can I chain multiple expansion boards together?
+- Q5: Can I chain multiple expansion boards together?
 - A6: Yes, you can. However, some soldering will be required. You'll need to solder the DOUT of the preceding board to the DIN of the next board, and also connect the VCC and GND solder pads together.
 
 ## Resources
 
 - **[Zip]** [Eagle file](https://github.com/Longan-Labs/XIAO_MATRIX_RES/raw/main/EAGLE_XIAO_MATRIX.zip)
 - **[PDF]** [Datasheet - WS2812B](https://github.com/Longan-Labs/XIAO_MATRIX_RES/blob/main/WS2812B-1010-DATASHEET.PDF)
-- **[GITHUB]** [Library for RP2040](https://github.com/MrYsLab/NeoPixelConnect)
-- **[GITHUB]** [Library for ESP32C3](https://github.com/adafruit/Adafruit_NeoPixel)
-- **[GITHUB]** [Library for SAMD21](https://github.com/adafruit/Adafruit_NeoPixel)
-- **[GITHUB]** [Library for nRF25840](https://github.com/adafruit/Adafruit_NeoPixel)
+- **[GITHUB]** [Library for WS2812B](https://github.com/adafruit/Adafruit_NeoPixel)
 
 ## Tech Support
 If you have any technical issue.  submit the issue into our [forum](https://forum.seeedstudio.com/).
