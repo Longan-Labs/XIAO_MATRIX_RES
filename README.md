@@ -79,7 +79,7 @@ Line 23,
 #define LED_COUNT 60
 ```
 
-Upload the above code to your XIAO RP2040. Once uploaded, you should observe the LEDs on the matrix cycling through red, green, and blue colors.
+Upload the above code to your XIAO RP2040. Once uploaded, you should see the 60 LEDs on the circuit board blinking regularly, you can refer to the code for the specific rules.
 
 Congratulations! You've successfully set up and tested the 6x10 RGB-MATRIX for XIAO. Now, it's time to dive into more exciting projects and explore the full potential of this product.
 
